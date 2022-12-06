@@ -8,7 +8,7 @@ from zipfile import ZipFile
 def main() -> None:
     os.makedirs('2019', exist_ok=True)
     os.makedirs('2020', exist_ok=True)
-    os.makedirs('ossz', exist_ok=True)
+    os.makedirs('sum', exist_ok=True)
     os.makedirs('taxi_zones', exist_ok=True)
 
     with urlopen('https://data.cityofnewyork.us/api/geospatial/d3c5-ddgc?method=export&format=Original') as zip_resp:
