@@ -6,7 +6,7 @@ os.makedirs('2019', exist_ok=True)
 os.makedirs('2020', exist_ok=True)
 os.makedirs('ossz', exist_ok=True)
 
-for year in range(2019, 2021):
+for year in (2019, 2020):
     for month in range(1, 13):
         (
             pd
